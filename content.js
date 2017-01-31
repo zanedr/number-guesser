@@ -1,11 +1,13 @@
-var numberInput = document.getElementById('number-input').value;
+var numberInput = document.getElementById('number-input');
 var guessButton = document.querySelector('.guess');
 var clearButton = document.querySelector('.clear');
 var resetButton = document.querySelector('.reset');
 var answer = Math.floor(Math.random() * 100) + 1;
 var tryCount = 0;
 
-document.querySelector('.last-guess').innerText = numberInput;
+guessButton.addEventListener('click', function() {
+  console.log(numberInput.value);
+});
 
 guessButton.addEventListener('click', function() {
   if (numberInput > answer) {
