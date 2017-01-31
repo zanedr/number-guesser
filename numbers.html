@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Number Guesser</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+  <body>
+    <header>
+      <h1><span class="bold-pink-text">Number</span><span class="thin-gray-text"> Guesser</span></h1>
+    </header>
+    <main>
+      <input type="number" id="number-input" placeholder="Pick a number">
+      <div class="buttons">
+        <button class="guess">Guess</button>
+        <button class="clear">Clear</button>
+      </div>
+      <section class="responsive">
+        <h2 class="thin-black-text">Your last guess was</h2>
+        <h3 class="last-guess">N/A</h3>
+        <h4 class="thin-black-text feedback">No guesses yet.</h4>
+        <h5 class="number-of-guesses thin-black-text">Number of guesses: 0</h5>
+      </section>
+      <div class="buttons">
+        <button class="reset">Reset</button>
+      </div>
+      <script src="content.js"></script>
+    </main>
+  </body>
+</html>
