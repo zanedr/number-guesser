@@ -36,12 +36,28 @@ h1 {
   margin: 0px auto 0px;
 }
 
-main input {
+#number-input {
   text-align: center;
   font-size: 40px;
   display: block;
-  margin: 30px auto 0px;
+  margin: 0px auto 0px;
   width: 450px;
+  color: #AAAAAA;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+main p {
+  padding: 10px 0px 0px;
+}
+
+.range {
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px auto 0px;
+  width: 220px;
+  height: 30px;
   color: #AAAAAA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
@@ -59,12 +75,12 @@ main button {
   height: 40px;
   border-radius: 25px;
   border: 0px;
-  margin: 30px 15px;
+  margin: 10px 15px 10px;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 25px;
-  background-color: #D0D2D3;
+  background-color: #929497;
 }
 
 main button:disabled {
@@ -75,12 +91,12 @@ main button:disabled {
   height: 40px;
   border-radius: 25px;
   border: 0px;
-  margin: 30px 15px 0px;
+  margin: 10px 15px 10px;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 25px;
-  background-color: #EB008B;
+  background-color: #D0D2D3;
 }
 
 main button:hover {
@@ -91,12 +107,16 @@ main button:hover {
   height: 40px;
   border-radius: 25px;
   border: 0px;
-  margin: 30px 15px 0px;
+  margin: 10px 15px 10px;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 25px;
   background-color: #EB008B;
+}
+
+h2 {
+    padding: 10px 0px 0px;
 }
 
 h3 {
@@ -108,6 +128,43 @@ h3 {
   margin: 0px auto 0px;
 }
 
-section h5 {
-  padding: 20px 0px 0px 0px;
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  #number-input {
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    margin: 10px auto 0px;
+    width: 90%;
+    color: #AAAAAA;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+  }
+
+  .range {
+    display: block;
+    width: 90%;
+  }
+
+  main button {
+    display: block;
+    width: 90%;
+  }
+
+  main button:hover {
+    display: block;
+    width: 90%;
+  }
+
+  main button:disabled {
+    display: block;
+    width: 90%;
+  }
+
+  h3 {
+    font-size: 100px;
+  }
 }
