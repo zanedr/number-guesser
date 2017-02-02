@@ -86,7 +86,7 @@ guessButton.addEventListener('click', function () {
   tellGuess.innerText = guess;
 });
 
-// victory conditions
+//√ victory conditions
 function victory () {
   minNum = parseInt(minNum, 10) - 10;
   maxNum = parseInt(maxNum, 10) + 10;
