@@ -86,17 +86,22 @@ guessButton.addEventListener('click', function () {
   tellGuess.innerText = guess;
 });
 
+//√ victory conditions
+function victory () {
+  minNum = parseInt(minNum, 10) - 10;
+  maxNum = parseInt(maxNum, 10) + 10;
+  document.getElementById('min').value = minNum;
+  document.getElementById('max').value = maxNum;
+  alert('Congrats! Range increased by 10 on both sides.')
+  generate (minNum, maxNum);
+}
+
 //√ feedback: informs whether guess was too high, too low, just right, or completely off base
 guessButton.addEventListener('click', function() {
   if (numberInput.value == answer) {
     var feedback = document.querySelector('#feedback');
     feedback.innerText = "BOOM!";
-    minNum = parseInt(minNum, 10) - 10;
-    maxNum = parseInt(maxNum, 10) + 10;
-    document.getElementById('min').value = minNum;
-    document.getElementById('max').value = maxNum;
-    alert('Congrats! Range increased by 10 on both sides.')
-    generate (minNum, maxNum);
+    victory();
   }
   else if (numberInput.value < answer && numberInput.value >= minNum) {
     var feedback = document.querySelector('#feedback');
