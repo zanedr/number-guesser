@@ -1,0 +1,25 @@
+html for counter
+
+<section class="high5">
+  <h5 class="thin-black-text">Number of guesses: </h5><h5 id="number-of-guesses" class="thin-black-text"> 0</h5>
+</section>
+
+css for counter
+section h5 {
+  padding: 20px 0px 0px 0px;
+  display: inline;
+}
+
+.high5 {
+  margin: 20px auto 0px;
+  text-align: center;
+}
+
+javascript for counter
+// for the number of guesses counter, recalls functions from feedback
+
+var tryCount = 0;
+function tryCounter() {
+  tryCount += 1;
+  document.getElementById('number-of-guesses').innerHTML = tryCount;
+};
