@@ -6,7 +6,7 @@ see at first glance.
 
 Please see our extensive troubleshooting section should problems arise.
 
-Years of intensive research and a budget reaching in the billions of dollars have
+Years of intensive research and a budget reaching into the billions of dollars have
 made it possible for you, the user, to enjoy the childlike glee of guessing numbers
 with virtually no prior experience.
 
@@ -22,7 +22,7 @@ try Clear. If you're comfortable with the number, hit Guess.
 The guess button will inform you whether the number you chose was too high,
 too low, or just right. If your guess was outside of the simple rules Number
 Guesser© laid out, an alert box will bluntly inform you of such. Number guessing
-is serious business and we don't sugar coat this shit.
+is serious business and we don't sugar coat the truth.
 
 Upon a correct guess, Number Guesser© will congratulate you, and kick the difficulty
 up by widening the range of numbers. Expert users can use the Minimum and Maximum
