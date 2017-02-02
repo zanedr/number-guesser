@@ -36,7 +36,9 @@ From all of us at the Number Guesser© team, guess away!
 ####Troubleshooting Q&A
 
 Q: I tried starting Number Guesser©, but it didn't work right. What's my next step?
+
 A: Try it again.
 
 Q: Number Guesser© set my computer on fire.
+
 A: Should've used smaller numbers.
